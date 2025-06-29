@@ -32,6 +32,9 @@ const RecipeDetail = () => {
     return ingredients;
   };
 
+
+
+
   if (!recipe) return <p>Loading recipe...</p>;
 
   return (
@@ -47,9 +50,9 @@ const RecipeDetail = () => {
       </p>
       <h3>Ingredients</h3>
       <ul>
-        {getIngredients(recipe).map((item, index) => {
-          <li key={index}>{item}</li>;
-        })}
+        {getIngredients(recipe).map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
       </ul>
       <h3>Instructions</h3>
       <p>{recipe.strInstructions}</p>
