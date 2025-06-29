@@ -1,0 +1,14 @@
+.search-bar {
+  margin: 1rem 0;
+  text-align: center;
+}
+.search-bar input {
+  padding: 0.5rem;
+  width: 60%;
+  max-width: 300px;
+  margin-right: 10px;
+}
+.search-bar button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
