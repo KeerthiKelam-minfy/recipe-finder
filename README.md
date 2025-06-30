@@ -33,7 +33,7 @@ A responsive React application that allows users to search for meals, view detai
 ### 1. Clone the Repository
 
 <pre>
-git clone https://github.com/keerthikelam/recipe-finder.git
+git clone https://github.com/KeerthiKelam-minfy/recipe-finder.git
 cd recipe-finder  
 </pre>
 
